@@ -1,0 +1,39 @@
+@font-face {
+	font-family: "transicon";
+	src: url("transport_icons/transicon.eot");
+	src: url("transport_icons/transicon.eot#iefix") format("embedded-opentype"),
+	url("transport_icons/transicon.woff") format("woff"),
+	url("transport_icons/transicon.ttf") format("truetype"),
+	url("transport_icons/transicon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="transicon-"]:before, [class*=" transicon-"]:before,
+[class^="transicon-"]:after, [class*=" transicon-"]:after {   
+	font-family: transicon;
+    font-size: 37px;
+	font-style: normal;
+}.transicon-bus46:before {
+	content: "\e000";
+}
+.transicon-delivery18:before {
+	content: "\e001";
+}
+.transicon-delivery23:before {
+	content: "\e002";
+}
+.transicon-logistics-delivery:before {
+	content: "\e003";
+}
+.transicon-taxi14:before {
+	content: "\e004";
+}
+.transicon-transport19:before {
+	content: "\e005";
+}
+.transicon-transport67:before {
+	content: "\e006";
+}
+.transicon-vehicle12:before {
+	content: "\e007";
+}
